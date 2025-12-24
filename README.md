@@ -46,6 +46,7 @@ Vault
 
 2 passing (168ms)
 
+---
 
 ## ✅ QA Checklist
 
@@ -56,8 +57,10 @@ See qa-checklist.md for a full list of validations performed on smart contracts,
 - Test coverage and gas profiling  
 - Documentation and reproducibility
 
-## 📁 Project Structure
-contracts/
+---
+
+## 📁 Project Structure contracts/
+
   Vault.sol          # Smart contract with deposit/withdraw logic
 test/
   Vault.test.js      # Unit tests for Vault
