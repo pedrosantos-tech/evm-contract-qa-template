@@ -46,9 +46,7 @@ Vault
 
 2 passing (168ms)
 
----
-
-## ✅ QA Checklist
+✅ QA Checklist
 See qa-checklist.md for a full list of validations performed on smart contracts, including:
 Security checks (reentrancy, access control, overflow)
 Logic validation (balance tracking, edge cases)
