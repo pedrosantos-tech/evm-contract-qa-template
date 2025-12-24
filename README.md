@@ -1,1 +1,33 @@
-# evm-contract-qa-template
+# 🧪 EVM Contract QA Template
+
+A modular and reproducible template for testing Solidity smart contracts in EVM-compatible environments.  
+Designed to help developers and auditors catch logic flaws, edge cases, and gas inefficiencies before deployment.
+
+---
+
+## 🔍 What’s inside
+
+- ✅ Hardhat + Chai setup for unit testing
+- ✅ Common failure scenarios (reentrancy, overflow, access control)
+- ✅ Gas profiling and assertions
+- ✅ QA checklist for DeFi logic
+- ✅ Reproducible test scripts with clear structure
+
+---
+
+## 🛠️ Tech Stack
+
+- Solidity
+- Hardhat
+- Chai / Mocha
+- Ethers.js
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/pedrosantos-tech/evm-contract-qa-template.git
+cd evm-contract-qa-template
+npm install
+npx hardhat test
