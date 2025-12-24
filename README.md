@@ -36,42 +36,35 @@ cd evm-contract-qa-template
 npm install
 npm test
 
-Or run
-./run-tests.sh
 
+Or run the convenience script:
+./run-tests.sh
 📋 Example Test Output
 Vault
     ✔ should accept deposits (123ms)
     ✔ should prevent over-withdrawal (45ms)
 
 2 passing (168ms)
-
----
-
-## ✅ QA Checklist
-
+✅ QA Checklist
 See qa-checklist.md for a full list of validations performed on smart contracts, including:
+Security checks (reentrancy, access control, overflow)
+Logic validation (balance tracking, edge cases)
+Test coverage and gas profiling
+Documentation and reproducibility
 
-- Security checks (reentrancy, access control, overflow)  
-- Logic validation (balance tracking, edge cases)  
-- Test coverage and gas profiling  
-- Documentation and reproducibility
-
----
-
-## 📁 Project Structure contracts/
-
-  Vault.sol          # Smart contract with deposit/withdraw logic
+📁 Project Structure
+contracts/
+  Vault.sol                # Smart contract with deposit/withdraw logic
 test/
-  Vault.test.js      # Unit tests for Vault
-qa-checklist.md      # Manual QA checklist
-run-tests.sh         # Shell script to run tests
-test-output.txt      # Example test output
-hardhat.config.js    # Hardhat config
-package.json         # Dependencies and test script
-README.md            # This file
+  Vault.test.js            # Unit tests for Vault
+qa-checklist.md            # Manual QA checklist
+run-tests.sh               # Shell script to run tests
+test-output.txt            # Example test output
+hardhat.config.js          # Hardhat config
+package.json               # Dependencies and test script
+README.md                  # This file
 
-## 👤 Author
-Pedro Santos  
-Web3 QA Strategist & Frontend Developer  
-[Linktree 👉](https://linktr.ee/pedrosantos_web3)
+👤 Author
+Pedro Santos
+Web3 QA Strategist & Frontend Developer
+Linktree 👉 https://linktr.ee/pedrosantosweb3
