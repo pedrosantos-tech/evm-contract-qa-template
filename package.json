@@ -1,0 +1,12 @@
+{
+  "name": "evm-contract-qa-template",
+  "version": "1.0.0",
+  "description": "Template for testing Solidity contracts in EVM-compatible environments",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.22.0"
+  }
+}

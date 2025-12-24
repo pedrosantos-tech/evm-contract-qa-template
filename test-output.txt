@@ -1,0 +1,5 @@
+Vault
+    ✔ should accept deposits (123ms)
+    ✔ should prevent over-withdrawal (45ms)
+
+2 passing (168ms)
