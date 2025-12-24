@@ -71,4 +71,4 @@ README.md            # This file
 ## 👤 Author
 Pedro Santos  
 Web3 QA Strategist & Frontend Developer  
-🔗 Linktree 👉 https://linktr.ee/pedrosantosweb3
+[Linktree 👉](https://linktr.ee/pedrosantos_web3)
